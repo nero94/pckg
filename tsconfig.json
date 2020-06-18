@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist",
+    "allowJs": true,
+    "checkJs": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "declaration": true,
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "./index.js",
+    "./lib/**/*"
+  ]
+}
